@@ -1,6 +1,6 @@
 package io.cucumber.testng;
 
-import io.cucumber.core.runtime.TestCaseResultObserver.Suggestion;
+import io.cucumber.plugin.event.SnippetsSuggestedEvent.Suggestion;
 import org.testng.SkipException;
 
 import java.util.List;

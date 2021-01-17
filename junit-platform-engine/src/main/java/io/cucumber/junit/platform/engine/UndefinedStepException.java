@@ -1,6 +1,6 @@
 package io.cucumber.junit.platform.engine;
 
-import io.cucumber.core.runtime.TestCaseResultObserver.Suggestion;
+import io.cucumber.plugin.event.SnippetsSuggestedEvent.Suggestion;
 import org.opentest4j.IncompleteExecutionException;
 
 import java.util.List;
